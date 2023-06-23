@@ -1,16 +1,9 @@
-# secret_santa
+# Amigo Secreto
 
-A new Flutter project.
+Aplicativo de sorteio de amigo secreto.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<p align="center">
+<img src="http://img.shields.io/static/v1?label=v1.0.0&message=IN%20PROGRESS&color=GREEN&style=for-the-badge"/>
+</p>
