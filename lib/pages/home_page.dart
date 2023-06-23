@@ -1,5 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:secret_santa/functions/sheet_functions.dart';
 import 'package:secret_santa/pages/profile_page.dart';
+import 'package:secret_santa/sheets/create_group_sheet.dart';
+
+import '../main.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -75,8 +79,18 @@ class HomePage extends StatelessWidget {
                   padding: const EdgeInsets.all(12.0),
                   child: Card(
                     elevation: 0,
+                    shape: const RoundedRectangleBorder(
+                      borderRadius: BorderRadius.all(
+                        Radius.circular(10),
+                      ),
+                    ),
                     child: InkWell(
-                      onTap: () {},
+                      onTap: () async {
+                        openSheet(
+                          context: context,
+                          sheet: const CreateGroupSheet(),
+                        );
+                      },
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: const [

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "591321873119",
+    "project_id": "secret-santa-13bb4",
+    "storage_bucket": "secret-santa-13bb4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:591321873119:android:5e1085cb83521b437f876a",
+        "android_client_info": {
+          "package_name": "com.secret.santa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "591321873119-l37nuh9flcs3s2dr795kvevaiks41ijl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7Iip4Lsy-nRsUxPfGBZssIqhf7Bp1TN0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "591321873119-l37nuh9flcs3s2dr795kvevaiks41ijl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
